@@ -12,11 +12,14 @@ body {
     font-style: normal;
     font-weight: 400;
     background-color: var(--main-bg-color);
+    color: var(--main-text-color);
     max-width: 1336px;
     padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Navbar */
 
 .navbar-brand {
     color: var(--action-text-color);
@@ -54,4 +57,30 @@ body {
     background-color: var(--action-color);
     border-color: var(--action-color);
     color: var(--action-text-color);
+}
+
+/* Hero */
+
+.hero {
+    max-width: 1110px;
+}
+
+.hero .hello {
+    font-weight: 600;
+}
+
+.hero .name {
+    font-weight: 600;
+}
+
+.hero .name span {
+    color: var(--action-color);
+}
+
+.hero button {
+    font-size: 12pt;
+}
+
+.img-banner {
+    max-width: 450px;
 }
