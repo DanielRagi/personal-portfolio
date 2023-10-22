@@ -1,0 +1,57 @@
+:root {
+    --main-bg-color: #0f172a;
+    --second-bg-color: #131c31;
+    --action-color: #0ea7e9;
+    --main-text-color: #94a9c9;
+    --title-text-color: #b9e0f2;
+    --action-text-color: #e6f0ff;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: var(--main-bg-color);
+    max-width: 1336px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-brand {
+    color: var(--action-text-color);
+    font-weight: 600;
+}
+
+.navbar-brand:hover {
+    color: var(--action-text-color);
+    font-weight: 600;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--action-color);
+}
+
+.nav-link {
+    color: var(--main-text-color);
+}
+
+.nav-link:hover {
+    color: var(--main-text-color);
+}
+
+.btn-primary {
+    background-color: var(--action-color);
+    border-color: var(--action-color);
+    color: var(--action-text-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--action-color);
+    border-color: var(--action-color);
+    color: var(--action-text-color);
+}
